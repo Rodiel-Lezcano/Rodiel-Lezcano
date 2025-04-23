@@ -33,42 +33,42 @@ src="https://img.shields.io/github/followers/rodiel_lezcano?logo=github&style=fo
 
 ### Google Cloud Certifications
 <div align="center">
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-computing-foundations-certificate.png" alt="Google Cloud Computing Foundations Certificate" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-cybersecurity-certificate.png" alt="Google Cloud Cybersecurity Certificate" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-data-analytics-certificate.png" alt="Google Cloud Data Analytics Certificate" width="150" />
-  
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-computing-foundations-certificate.png" alt="Google Cloud Computing Foundations Certificate" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-cybersecurity-certificate.png" alt="Google Cloud Cybersecurity Certificate" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-data-analytics-certificate.png" alt="Google Cloud Data Analytics Certificate" width="100" />
 </div>
 
-### AWS Skill Badges
+### AWS Cloud Skill Badges
 <div align="center">
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-cloud-essentials.png" alt="AWS Knowledge: Cloud Essentials" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-compute.png" alt="AWS Knowledge: Compute" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-eks.png" alt="AWS Knowledge: Amazon EKS" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-serverless.png" alt="AWS Knowledge: Serverless" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-events-and-workflows.png" alt="AWS Knowledge: Events and Workflows" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-migration-foundations.png" alt="AWS Knowledge: Migration Foundations" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-braket.png" alt="AWS Knowledge: Amazon Braket" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-file-storage.png" alt="AWS Knowledge: File Storage" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-data-migration.png" alt="AWS Knowledge: Data Migration" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-cloud-economics-essentials.png" alt="AWS Partner: Cloud Economics Essentials" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-technical-accredited.png" alt="AWS Partner: Technical Accredited" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest: Cloud Practitioner" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-cloud-essentials.png" alt="AWS Knowledge: Cloud Essentials" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-compute.png" alt="AWS Knowledge: Compute" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-eks.png" alt="AWS Knowledge: Amazon EKS" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-serverless.png" alt="AWS Knowledge: Serverless" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-events-and-workflows.png" alt="AWS Knowledge: Events and Workflows" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-migration-foundations.png" alt="AWS Knowledge: Migration Foundations" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-braket.png" alt="AWS Knowledge: Amazon Braket" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-file-storage.png" alt="AWS Knowledge: File Storage" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-data-migration.png" alt="AWS Knowledge: Data Migration" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-cloud-economics-essentials.png" alt="AWS Partner: Cloud Economics Essentials" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-technical-accredited.png" alt="AWS Partner: Technical Accredited" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest: Cloud Practitioner" width="100" />
 </div>
 
 ---
 
 ## 📱 Enterprise Mobility Management Certifications
 <div align="center">
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/apple-certified-it-professional.png" alt="Apple Certified IT Professional" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/jamf-certified-associate-jamf-pro.png" alt="Jamf Certified Associate (Jamf Pro)" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/android-enterprise-certified-expert.png" alt="Android Enterprise Certified Expert" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/samsung-knox-certificate-associate.png" alt="Samsung Knox Certificate Associate" width="150" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/soti-mobicontrol-2024-solution-expert.png" alt="SOTI MobiControl 2024 Solution Expert" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/apple-certified-it-professional.png" alt="Apple Certified IT Professional" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/jamf-certified-associate-jamf-pro.png" alt="Jamf Certified Associate (Jamf Pro)" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/android-enterprise-certified-expert.png" alt="Android Enterprise Certified Expert" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/samsung-knox-certificate-associate.png" alt="Samsung Knox Certificate Associate" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/soti-mobicontrol-2024-solution-expert.png" alt="SOTI MobiControl 2024 Solution Expert" width="100" />
 </div>
 
 ---
 
 ## 🛠️ DevOps Certifications
 <div align="center">
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/linux-essentials-certificate.png" alt="Linux Essentials Certificate" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/linux-essentials-certificate.png" alt="Linux Essentials Certificate" width="100" />
 </div>
+
