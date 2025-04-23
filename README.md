@@ -72,3 +72,6 @@ src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=fo
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/linux-essentials-certificate.png" alt="Linux Essentials Certificate" width="100" />
 </div>
 
+<b>My GitHub Stats</b>
+
+<a href="http://www.github.com/rodiel-lezcano"><img src="https://github-readme-stats.vercel.app/api?username=rodiel-lezcano&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="rodiel-lezcano's GitHub stats" /></a>
