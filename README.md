@@ -25,18 +25,50 @@ src="https://img.shields.io/github/followers/rodiel_lezcano?logo=github&style=fo
 
 <p align="left"> <a href="https://www.github.com/rodiel_lezcano" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/rodiellezcano" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://htperformance.ca" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /> </picture> </a></p>
 
-### Badges
+# Certifications
 
-<b>My GitHub Stats</b>
+---
 
-<a href="http://www.github.com/rodiel_lezcano"><img src="https://github-readme-stats.vercel.app/api?username=rodiel_lezcano&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="rodiel_lezcano's GitHub stats" /></a>
+## ☁️ Cloud Certifications & Skill Badges
 
-<a href="http://www.github.com/rodiel_lezcano"><img src="https://github-readme-streak-stats.herokuapp.com/?user=rodiel_lezcano&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+### Google Cloud Certifications
+<div align="center">
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-computing-foundations-certificate.png" alt="Google Cloud Computing Foundations Certificate" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-cybersecurity-certificate.png" alt="Google Cloud Cybersecurity Certificate" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/google-cloud-data-analytics-certificate.png" alt="Google Cloud Data Analytics Certificate" width="150" />
+  
+</div>
 
-<a href="http://www.github.com/rodiel_lezcano"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=rodiel_lezcano&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+### AWS Skill Badges
+<div align="center">
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-cloud-essentials.png" alt="AWS Knowledge: Cloud Essentials" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-compute.png" alt="AWS Knowledge: Compute" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-eks.png" alt="AWS Knowledge: Amazon EKS" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-serverless.png" alt="AWS Knowledge: Serverless" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-events-and-workflows.png" alt="AWS Knowledge: Events and Workflows" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-migration-foundations.png" alt="AWS Knowledge: Migration Foundations" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-braket.png" alt="AWS Knowledge: Amazon Braket" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-file-storage.png" alt="AWS Knowledge: File Storage" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-data-migration.png" alt="AWS Knowledge: Data Migration" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-cloud-economics-essentials.png" alt="AWS Partner: Cloud Economics Essentials" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-technical-accredited.png" alt="AWS Partner: Technical Accredited" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest: Cloud Practitioner" width="150" />
+</div>
 
-<a href="https://github.com/rodiel_lezcano" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodiel_lezcano&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+---
 
-<b>Top Repositories</b>
+## 📱 Enterprise Mobility Management Certifications
+<div align="center">
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/apple-certified-it-professional.png" alt="Apple Certified IT Professional" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/jamf-certified-associate-jamf-pro.png" alt="Jamf Certified Associate (Jamf Pro)" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/android-enterprise-certified-expert.png" alt="Android Enterprise Certified Expert" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/samsung-knox-certificate-associate.png" alt="Samsung Knox Certificate Associate" width="150" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/soti-mobicontrol-2024-solution-expert.png" alt="SOTI MobiControl 2024 Solution Expert" width="150" />
+</div>
 
-<div width="100%" align="center"><a href="https://github.com/rodiel_lezcano/Rodiel-Lezcano" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=rodiel_lezcano&repo=Rodiel-Lezcano&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
+---
+
+## 🛠️ DevOps Certifications
+<div align="center">
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/linux-essentials-certificate.png" alt="Linux Essentials Certificate" width="150" />
+</div>
