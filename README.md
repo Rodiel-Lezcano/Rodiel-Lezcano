@@ -10,8 +10,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 * 🤝  I'm open to collaborating on Cloud Administration, Architecture, and Engineering Projects.
 * ⚡  Fun fact: I’m fluent in both English and Spanish, bringing a global perspective to every project.
 
-<a href="https://www.github.com/rodiel_lezcano" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/rodiel_lezcano?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<a href="https://www.github.com/rodiel-lezcano" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 
 ### Skills
 
