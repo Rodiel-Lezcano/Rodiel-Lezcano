@@ -63,6 +63,7 @@ src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=fo
 <div align="center">
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/apple-certified-it-professional.png" alt="Apple Certified IT Professional" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/jamf-certified-associate-jamf-pro.png" alt="Jamf Certified Associate (Jamf Pro)" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/jamf-certified-associate-jamf-protect.png" alt="Jamf Certified Associate (Jamf Protect)" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/android-enterprise-certified-expert.png" alt="Android Enterprise Certified Expert" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/samsung-knox-certificate-associate.png" alt="Samsung Knox Certificate Associate" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/942e26fb9391bf60ca64d54d4be61d3f15f6d21e/soti-mobicontrol-2024-solution-expert.png" alt="SOTI MobiControl 2024 Solution Expert" width="100" />
