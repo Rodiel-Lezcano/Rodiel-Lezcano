@@ -73,6 +73,8 @@ src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=fo
 
 ## 🛠️ DevOps Certifications
 <div align="center">
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/github-foundations.png" alt="GitHub Foundations" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/hashicorp-certified-terraform-associate-003.png" alt="Hashicorp Terraform Associate" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/linux-essentials-certificate.png" alt="Linux Essentials Certificate" width="100" />
 </div>
 
