@@ -1,33 +1,47 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Rodiel Lezcano - he/him
-===============================================================================================================================================
+<div align="center">
+  
+# Hi there! <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30">
 
-👀 I’m interested in Cloud Technologies, Cybersecurity, and Continuous Learning.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0891B2&center=true&vCenter=true&width=435&lines=Cloud+Technologies+Enthusiast;Cybersecurity+Professional;Continuous+Learner;Cloud+Architect)](https://git.io/typing-svg)
 
-* 🌍  I'm based in Ontario, Canada
-* 🖥️  See my portfolio at [MyPortafolio](http://htperformance.ca)
-* ✉️  You can contact me at [rodiel.lezcano@htperformance.ca](mailto:rodiel.lezcano@htperformance.ca)
-* 🧠  I'm learning Modern Cloud platforms and exploring innovative solutions to drive business success.
-* 🤝  I'm open to collaborating on Cloud Administration, Architecture, and Engineering Projects.
-* ⚡  Fun fact: I’m fluent in both English and Spanish, bringing a global perspective to every project.
+### I'm Rodiel Lezcano (he/him)
 
-<a href="https://www.github.com/rodiel-lezcano" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<img src="https://komarev.com/ghpvc/?username=rodiel-lezcano&label=Profile%20views&color=0891b2&style=flat" alt="Profile views" />
 
-### Skills
+</div>
 
+---
+
+## 👨‍💻 About Me
+
+👀 I'm interested in **Cloud Technologies**, **Cybersecurity**, and **Continuous Learning**.
+
+* 🌍  I'm based in **Ontario, Canada**
+* 🖥️  See my portfolio at [My Portfolio](http://htperformance.ca)
+* ✉️  You can contact me at [rodiel.lezcano@htperformance.ca](mailto:rodiel.lezcano@htperformance.ca)
+* 🧠  I'm learning Modern Cloud platforms and exploring innovative solutions to drive business success
+* 🤝  I'm open to collaborating on **Cloud Administration**, **Architecture**, and **Engineering Projects**
+* ⚡  Fun fact: I'm fluent in both **English** and **Spanish**, bringing a global perspective to every project
+
+<a href="https://www.github.com/rodiel-lezcano" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+
+---
+
+## 🛠️ Skills
 
 <p align="left">
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash.svg" width="36" height="36" alt="GNU Bash" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg" width="36" height="36" alt="VS Code" /></a><a href="https://www.vim.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vim.svg" width="36" height="36" alt="Vim" /></a><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" width="36" height="36" alt="Google Cloud" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a><a href="https://apple.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored.svg" width="36" height="36" alt="MacOS" /></a><a href="https://www.raspberrypi.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi" /></a>
 </p>
 
+---
 
-### Socials
+## 🌐 Socials
 
-<p align="left"> <a href="https://www.github.com/rodiel_lezcano" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/rodiellezcano" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://htperformance.ca" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /> </picture> </a></p>
-
-# Certifications
+<p align="left"> <a href="https://www.github.com/rodiel-lezcano" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/rodiellezcano" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://htperformance.ca" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /> </picture> </a></p>
 
 ---
+
+# 🏆 Certifications
 
 ## ☁️ Cloud Certifications & Skill Badges
 
@@ -51,7 +65,7 @@ src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=fo
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-amazon-braket.png" alt="AWS Knowledge: Amazon Braket" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-file-storage.png" alt="AWS Knowledge: File Storage" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-data-migration.png" alt="AWS Knowledge: Data Migration" width="100" />
-  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-data-protection-disaster-recovery.png" alt="AWS Knowledge: Storage Data Prtoection & Disaster Recovery" width="100" />
+  <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-knowledge-data-protection-disaster-recovery.png" alt="AWS Knowledge: Storage Data Protection & Disaster Recovery" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-cloud-economics-essentials.png" alt="AWS Partner: Cloud Economics Essentials" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-partner-technical-accredited.png" alt="AWS Partner: Technical Accredited" width="100" />
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest: Cloud Practitioner" width="100" />
@@ -78,6 +92,24 @@ src="https://img.shields.io/github/followers/rodiel-lezcano?logo=github&style=fo
   <img src="https://github.com/Rodiel-Lezcano/certificates-images/blob/main/linux-essentials-certificate.png" alt="Linux Essentials Certificate" width="100" />
 </div>
 
-<b>My GitHub Stats</b>
+---
 
-<a href="http://www.github.com/rodiel-lezcano"><img src="https://github-readme-stats.vercel.app/api?username=rodiel-lezcano&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="rodiel-lezcano's GitHub stats" /></a>
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rodiel-lezcano&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="rodiel-lezcano's GitHub stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rodiel-lezcano&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodiel-lezcano&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0891b2&height=100&section=footer" />
+</div>
