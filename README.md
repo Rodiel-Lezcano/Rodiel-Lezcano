@@ -20,7 +20,7 @@
 
 ## 👨‍💻 About Me
 
-> **Solutions Architect** building production-grade cloud infrastructure & security — from bare metal to Kubernetes — with multi-cloud expertise, AI integration, and full-stack IaC automation. Everything is code, nothing is manual.
+> **Solutions Architect** building production-grade infrastructure & security from bare metal to Kubernetes with multi-cloud expertise, AI integration, and full-stack IaC automation. Everything is code, nothing is manual.
 
 - 🌍 Based in the **Greater Toronto Area, Canada**
 - ☁️ **Multi-Cloud** — certified across **AWS**, **Azure**, and **GCP** with hands-on production experience
