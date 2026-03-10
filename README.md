@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <div align="center">
-  <img src="header-banner-animated.svg" alt="Rodiel Lezcano — Solutions Architect · Cloud & AI · IaC Automation" width="100%" />
+  <img src="header-banner-hyperscaler.svg" alt="Rodiel Lezcano — Solutions Architect · Cloud & AI · IaC Automation" width="100%" />
 </div>
 
 <div align="center">
