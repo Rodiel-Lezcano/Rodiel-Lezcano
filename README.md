@@ -206,10 +206,10 @@ Self-hosted AI platform on Fedora CoreOS — local LLM inference with semantic l
 <summary><strong>🛠️ DevOps & Platform Engineering</strong></summary>
 <br/>
 <div align="center">
+  <img src="https://images.credly.com/size/340x340/images/3d924691-436a-4fb6-b19b-1005ccbb6135/blob" alt="NVIDIA-Certified Associate: AI Infrastructure and Operations" width="110" />
   <img src="https://images.credly.com/size/340x340/images/0dc62494-dc94-469a-83af-e35309f27356/blob" alt="HashiCorp Terraform Associate" width="110" />
   <img src="https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png" alt="GitHub Foundations" width="110" />
   <img src="https://images.credly.com/size/340x340/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" alt="Linux Essentials" width="110" />
-  <img src="https://images.credly.com/size/340x340/images/3d924691-436a-4fb6-b19b-1005ccbb6135/blob" alt="NVIDIA-Certified Associate: AI Infrastructure and Operations" width="110" />
 </div>
 </details>
 
