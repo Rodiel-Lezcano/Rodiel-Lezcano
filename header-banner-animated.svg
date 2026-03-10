@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <!-- Animated background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#0a0e27;#1a0a2e;#0d1b2a;#0a0e27" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="35%">
+        <animate attributeName="stop-color" values="#1a1a4e;#0d2847;#2d1b4e;#1a1a4e" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#0d2847;#0a2a3a;#161638;#0d2847" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow gradients -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06d6a0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#06d6a0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Accent line gradient -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06d6a0" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#06d6a0" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#f97316" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Scanning line gradient -->
+    <linearGradient id="scanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="55%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      /* Floating orbs */
+      @keyframes float1 {
+        0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+        25% { transform: translate(15px, -20px) scale(1.2); opacity: 0.7; }
+        50% { transform: translate(-10px, -35px) scale(0.9); opacity: 0.5; }
+        75% { transform: translate(20px, -15px) scale(1.1); opacity: 0.6; }
+      }
+      @keyframes float2 {
+        0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+        33% { transform: translate(-20px, -25px) scale(1.3); opacity: 0.6; }
+        66% { transform: translate(15px, -40px) scale(0.8); opacity: 0.4; }
+      }
+      @keyframes float3 {
+        0%, 100% { transform: translate(0, 0); opacity: 0.5; }
+        50% { transform: translate(25px, -30px); opacity: 0.8; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; r: 3; }
+        50% { opacity: 0.9; r: 5; }
+      }
+      @keyframes pulse2 {
+        0%, 100% { opacity: 0.2; r: 2; }
+        50% { opacity: 0.7; r: 4; }
+      }
+      @keyframes dashMove {
+        0% { stroke-dashoffset: 20; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes scanMove {
+        0% { transform: translateX(-200px); }
+        100% { transform: translateX(1400px); }
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes textGlow {
+        0%, 100% { filter: drop-shadow(0 0 8px rgba(56,189,248,0.3)); }
+        50% { filter: drop-shadow(0 0 20px rgba(56,189,248,0.6)); }
+      }
+      @keyframes subtitleShift {
+        0%, 100% { fill: #06d6a0; }
+        25% { fill: #38bdf8; }
+        50% { fill: #a855f7; }
+        75% { fill: #f97316; }
+      }
+      @keyframes nodeConnection {
+        0%, 100% { stroke-opacity: 0.08; }
+        50% { stroke-opacity: 0.25; }
+      }
+      @keyframes accentPulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes particleRise {
+        0% { transform: translateY(0); opacity: 0.6; }
+        100% { transform: translateY(-220px); opacity: 0; }
+      }
+      @keyframes borderGlow {
+        0%, 100% { stroke-opacity: 0.2; }
+        50% { stroke-opacity: 0.6; }
+      }
+
+      .orb1 { animation: float1 7s ease-in-out infinite; }
+      .orb2 { animation: float2 9s ease-in-out infinite; }
+      .orb3 { animation: float3 6s ease-in-out infinite; }
+      .orb4 { animation: float1 11s ease-in-out infinite; }
+      .orb5 { animation: float2 8s ease-in-out infinite; }
+
+      .node-pulse { animation: pulse 2s ease-in-out infinite; }
+      .node-pulse2 { animation: pulse2 3s ease-in-out infinite; }
+      .node-pulse3 { animation: pulse 2.5s ease-in-out infinite 0.5s; }
+
+      .dash-line { stroke-dasharray: 8 4; animation: dashMove 1.5s linear infinite; }
+      .dash-line2 { stroke-dasharray: 6 6; animation: dashMove 2s linear infinite; }
+
+      .scan { animation: scanMove 4s linear infinite; }
+
+      .glow1 { animation: glowPulse 4s ease-in-out infinite; }
+      .glow2 { animation: glowPulse 5s ease-in-out infinite 1s; }
+      .glow3 { animation: glowPulse 6s ease-in-out infinite 2s; }
+
+      .main-text { animation: textGlow 3s ease-in-out infinite; }
+      .subtitle { animation: subtitleShift 10s ease-in-out infinite; }
+
+      .net-line { animation: nodeConnection 3s ease-in-out infinite; }
+      .net-line2 { animation: nodeConnection 4s ease-in-out infinite 1s; }
+      .net-line3 { animation: nodeConnection 3.5s ease-in-out infinite 0.5s; }
+
+      .accent { animation: accentPulse 2s ease-in-out infinite; }
+
+      .particle { animation: particleRise 5s linear infinite; }
+      .particle2 { animation: particleRise 7s linear infinite 1s; }
+      .particle3 { animation: particleRise 6s linear infinite 2s; }
+      .particle4 { animation: particleRise 8s linear infinite 3s; }
+      .particle5 { animation: particleRise 5.5s linear infinite 0.5s; }
+
+      .border-glow { animation: borderGlow 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="220" fill="url(#bgGrad)" rx="8"/>
+
+  <!-- Animated border glow -->
+  <rect x="1" y="1" width="1198" height="218" fill="none" stroke="url(#accentLine)" stroke-width="1.5" rx="8" class="border-glow"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04" stroke="#38bdf8" stroke-width="0.5">
+    <line x1="0" y1="44" x2="1200" y2="44"/>
+    <line x1="0" y1="88" x2="1200" y2="88"/>
+    <line x1="0" y1="132" x2="1200" y2="132"/>
+    <line x1="0" y1="176" x2="1200" y2="176"/>
+    <line x1="120" y1="0" x2="120" y2="220"/>
+    <line x1="240" y1="0" x2="240" y2="220"/>
+    <line x1="360" y1="0" x2="360" y2="220"/>
+    <line x1="480" y1="0" x2="480" y2="220"/>
+    <line x1="600" y1="0" x2="600" y2="220"/>
+    <line x1="720" y1="0" x2="720" y2="220"/>
+    <line x1="840" y1="0" x2="840" y2="220"/>
+    <line x1="960" y1="0" x2="960" y2="220"/>
+    <line x1="1080" y1="0" x2="1080" y2="220"/>
+  </g>
+
+  <!-- Scanning line effect -->
+  <rect x="0" y="0" width="200" height="220" fill="url(#scanLine)" class="scan" opacity="0.3"/>
+
+  <!-- Ambient glow orbs -->
+  <circle cx="150" cy="60" r="80" fill="url(#glowCyan)" class="glow1"/>
+  <circle cx="950" cy="160" r="90" fill="url(#glowPurple)" class="glow2"/>
+  <circle cx="1050" cy="40" r="60" fill="url(#glowOrange)" class="glow3"/>
+  <circle cx="300" cy="180" r="70" fill="url(#glowBlue)" class="glow1"/>
+
+  <!-- Floating orbs (colorful particles) -->
+  <g class="orb1"><circle cx="100" cy="180" r="4" fill="#06d6a0"/></g>
+  <g class="orb2"><circle cx="250" cy="150" r="3" fill="#38bdf8"/></g>
+  <g class="orb3"><circle cx="180" cy="100" r="2.5" fill="#a855f7"/></g>
+  <g class="orb4"><circle cx="1050" cy="170" r="3.5" fill="#f97316"/></g>
+  <g class="orb5"><circle cx="950" cy="60" r="3" fill="#06d6a0"/></g>
+  <g class="orb1"><circle cx="850" cy="180" r="2" fill="#38bdf8"/></g>
+  <g class="orb3"><circle cx="1100" cy="80" r="3" fill="#a855f7"/></g>
+  <g class="orb2"><circle cx="350" cy="40" r="2.5" fill="#f97316"/></g>
+
+  <!-- Rising particles -->
+  <circle cx="200" cy="210" r="1.5" fill="#06d6a0" class="particle" opacity="0.6"/>
+  <circle cx="500" cy="210" r="1" fill="#38bdf8" class="particle2" opacity="0.5"/>
+  <circle cx="750" cy="210" r="1.5" fill="#a855f7" class="particle3" opacity="0.6"/>
+  <circle cx="1000" cy="210" r="1" fill="#f97316" class="particle4" opacity="0.5"/>
+  <circle cx="400" cy="210" r="1.2" fill="#06d6a0" class="particle5" opacity="0.5"/>
+  <circle cx="900" cy="210" r="1.2" fill="#38bdf8" class="particle" opacity="0.4"/>
+  <circle cx="600" cy="210" r="1" fill="#a855f7" class="particle3" opacity="0.5"/>
+  <circle cx="1100" cy="210" r="1.5" fill="#06d6a0" class="particle2" opacity="0.4"/>
+
+  <!-- Left network cluster -->
+  <g>
+    <line x1="80" y1="120" x2="130" y2="85" stroke="#06d6a0" stroke-width="1" class="net-line dash-line"/>
+    <line x1="80" y1="120" x2="60" y2="165" stroke="#38bdf8" stroke-width="1" class="net-line2 dash-line"/>
+    <line x1="130" y1="85" x2="170" y2="120" stroke="#a855f7" stroke-width="1" class="net-line3 dash-line"/>
+    <line x1="170" y1="120" x2="130" y2="165" stroke="#06d6a0" stroke-width="1" class="net-line dash-line2"/>
+    <line x1="60" y1="165" x2="130" y2="165" stroke="#38bdf8" stroke-width="1" class="net-line2 dash-line"/>
+    <line x1="80" y1="120" x2="170" y2="120" stroke="#a855f7" stroke-width="0.8" class="net-line3 dash-line2"/>
+
+    <circle cx="80" cy="120" r="3" fill="#06d6a0" class="node-pulse"/>
+    <circle cx="130" cy="85" r="3" fill="#38bdf8" class="node-pulse2"/>
+    <circle cx="170" cy="120" r="3" fill="#a855f7" class="node-pulse3"/>
+    <circle cx="130" cy="165" r="3" fill="#f97316" class="node-pulse"/>
+    <circle cx="60" cy="165" r="3" fill="#06d6a0" class="node-pulse2"/>
+  </g>
+
+  <!-- Right network cluster -->
+  <g>
+    <line x1="1030" y1="70" x2="1080" y2="45" stroke="#a855f7" stroke-width="1" class="net-line dash-line"/>
+    <line x1="1030" y1="70" x2="1010" y2="110" stroke="#06d6a0" stroke-width="1" class="net-line2 dash-line2"/>
+    <line x1="1080" y1="45" x2="1120" y2="75" stroke="#38bdf8" stroke-width="1" class="net-line3 dash-line"/>
+    <line x1="1120" y1="75" x2="1090" y2="115" stroke="#f97316" stroke-width="1" class="net-line dash-line"/>
+    <line x1="1010" y1="110" x2="1090" y2="115" stroke="#a855f7" stroke-width="1" class="net-line2 dash-line2"/>
+    <line x1="1050" y1="140" x2="1090" y2="115" stroke="#06d6a0" stroke-width="0.8" class="net-line3 dash-line"/>
+    <line x1="1050" y1="140" x2="1010" y2="110" stroke="#38bdf8" stroke-width="0.8" class="net-line dash-line2"/>
+
+    <circle cx="1030" cy="70" r="3" fill="#a855f7" class="node-pulse"/>
+    <circle cx="1080" cy="45" r="3" fill="#38bdf8" class="node-pulse3"/>
+    <circle cx="1120" cy="75" r="3" fill="#06d6a0" class="node-pulse2"/>
+    <circle cx="1090" cy="115" r="3" fill="#f97316" class="node-pulse"/>
+    <circle cx="1010" cy="110" r="3" fill="#06d6a0" class="node-pulse3"/>
+    <circle cx="1050" cy="140" r="3" fill="#a855f7" class="node-pulse2"/>
+  </g>
+
+  <!-- Kubernetes wheel (left, larger, animated) -->
+  <g transform="translate(70, 55)" opacity="0.12">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#38bdf8" stroke-width="1.5" class="node-pulse2"/>
+    <circle cx="0" cy="0" r="6" fill="#38bdf8" opacity="0.4" class="node-pulse"/>
+    <line x1="0" y1="-18" x2="0" y2="-6" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="0" y1="18" x2="0" y2="6" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="-15.6" y1="-9" x2="-5.2" y2="-3" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="15.6" y1="-9" x2="5.2" y2="-3" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="-15.6" y1="9" x2="-5.2" y2="3" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="15.6" y1="9" x2="5.2" y2="3" stroke="#38bdf8" stroke-width="1.5"/>
+  </g>
+
+  <!-- Shield (right, animated) -->
+  <g transform="translate(1140, 160)" opacity="0.12">
+    <path d="M0,-20 L15,-13 L15,3 C15,13 0,22 0,22 C0,22 -15,13 -15,3 L-15,-13 Z" fill="none" stroke="#06d6a0" stroke-width="1.5" class="node-pulse3"/>
+    <polyline points="-5,0 -1,5 7,-5" fill="none" stroke="#06d6a0" stroke-width="2" class="node-pulse"/>
+  </g>
+
+  <!-- Cloud icon (top right, animated) -->
+  <g opacity="0.1" class="orb5">
+    <circle cx="980" cy="30" r="12" fill="none" stroke="#f97316" stroke-width="1"/>
+    <circle cx="997" cy="26" r="16" fill="none" stroke="#f97316" stroke-width="1"/>
+    <circle cx="1016" cy="30" r="12" fill="none" stroke="#f97316" stroke-width="1"/>
+    <line x1="968" y1="35" x2="1028" y2="35" stroke="#f97316" stroke-width="1"/>
+  </g>
+
+  <!-- Terminal brackets -->
+  <g opacity="0.08">
+    <text x="270" y="85" font-family="Courier New, monospace" font-size="28" fill="#06d6a0" class="node-pulse2">&gt;_</text>
+    <text x="900" y="170" font-family="Courier New, monospace" font-size="22" fill="#a855f7" class="node-pulse3">$</text>
+  </g>
+
+  <!-- Accent line (multicolor, below title) -->
+  <rect x="320" y="142" width="560" height="2" fill="url(#accentLine)" rx="1" class="accent"/>
+
+  <!-- Secondary thin lines -->
+  <rect x="380" y="148" width="440" height="0.5" fill="url(#accentLine)" rx="1" opacity="0.3" class="accent"/>
+
+  <!-- Main title -->
+  <g class="main-text">
+    <text x="600" y="82" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="3">
+      Rodiel Lezcano
+    </text>
+  </g>
+
+  <!-- Subtitle with color shift -->
+  <text x="600" y="128" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" text-anchor="middle" letter-spacing="4" class="subtitle">
+    SOLUTIONS ARCHITECT  &#xB7;  CLOUD &amp; AI  &#xB7;  IaC AUTOMATION
+  </text>
+
+  <!-- Bottom tag badges (small text pills) -->
+  <g opacity="0.6">
+    <!-- AWS pill -->
+    <rect x="370" y="162" width="50" height="18" rx="9" fill="none" stroke="#f97316" stroke-width="0.8"/>
+    <text x="395" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#f97316" text-anchor="middle" font-weight="600">AWS</text>
+
+    <!-- Azure pill -->
+    <rect x="430" y="162" width="55" height="18" rx="9" fill="none" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="457" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#38bdf8" text-anchor="middle" font-weight="600">AZURE</text>
+
+    <!-- GCP pill -->
+    <rect x="495" y="162" width="48" height="18" rx="9" fill="none" stroke="#06d6a0" stroke-width="0.8"/>
+    <text x="519" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#06d6a0" text-anchor="middle" font-weight="600">GCP</text>
+
+    <!-- K8s pill -->
+    <rect x="553" y="162" width="42" height="18" rx="9" fill="none" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="574" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#a855f7" text-anchor="middle" font-weight="600">K8s</text>
+
+    <!-- Terraform pill -->
+    <rect x="605" y="162" width="75" height="18" rx="9" fill="none" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="642" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#a855f7" text-anchor="middle" font-weight="600">TERRAFORM</text>
+
+    <!-- AI pill -->
+    <rect x="690" y="162" width="35" height="18" rx="9" fill="none" stroke="#f97316" stroke-width="0.8"/>
+    <text x="707" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#f97316" text-anchor="middle" font-weight="600">AI</text>
+
+    <!-- Security pill -->
+    <rect x="735" y="162" width="70" height="18" rx="9" fill="none" stroke="#06d6a0" stroke-width="0.8"/>
+    <text x="770" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#06d6a0" text-anchor="middle" font-weight="600">SECURITY</text>
+  </g>
+
+  <!-- Corner accents -->
+  <line x1="15" y1="8" x2="15" y2="30" stroke="#06d6a0" stroke-width="1.5" opacity="0.3" class="node-pulse2"/>
+  <line x1="8" y1="15" x2="30" y2="15" stroke="#06d6a0" stroke-width="1.5" opacity="0.3" class="node-pulse2"/>
+
+  <line x1="1185" y1="8" x2="1185" y2="30" stroke="#f97316" stroke-width="1.5" opacity="0.3" class="node-pulse3"/>
+  <line x1="1170" y1="15" x2="1192" y2="15" stroke="#f97316" stroke-width="1.5" opacity="0.3" class="node-pulse3"/>
+
+  <line x1="15" y1="190" x2="15" y2="212" stroke="#38bdf8" stroke-width="1.5" opacity="0.3" class="node-pulse"/>
+  <line x1="8" y1="205" x2="30" y2="205" stroke="#38bdf8" stroke-width="1.5" opacity="0.3" class="node-pulse"/>
+
+  <line x1="1185" y1="190" x2="1185" y2="212" stroke="#a855f7" stroke-width="1.5" opacity="0.3" class="node-pulse2"/>
+  <line x1="1170" y1="205" x2="1192" y2="205" stroke="#a855f7" stroke-width="1.5" opacity="0.3" class="node-pulse2"/>
+
+  <!-- GTA location tag -->
+  <g opacity="0.4">
+    <text x="600" y="200" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" letter-spacing="2" opacity="0.5">
+      &#x1F4CD; GREATER TORONTO AREA, CANADA
+    </text>
+  </g>
+</svg>
