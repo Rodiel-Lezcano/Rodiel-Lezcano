@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <style>
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+      @keyframes codeRain1 { 0% { transform: translateY(-220px); } 100% { transform: translateY(220px); } }
+      @keyframes codeRain2 { 0% { transform: translateY(-180px); } 100% { transform: translateY(260px); } }
+      @keyframes codeRain3 { 0% { transform: translateY(-300px); } 100% { transform: translateY(140px); } }
+      @keyframes scanline { 0% { transform: translateY(-220px); } 100% { transform: translateY(220px); } }
+      @keyframes glitch1 { 0%,92%,94%,96%,100% { transform: translate(0,0); opacity: 1; } 93% { transform: translate(-3px, 1px); opacity: 0.8; } 95% { transform: translate(3px, -1px); opacity: 0.9; } }
+      @keyframes promptBlink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+      @keyframes circuitPulse { 0%,100% { stroke-opacity: 0.08; } 50% { stroke-opacity: 0.25; } }
+      @keyframes circuitPulse2 { 0%,100% { stroke-opacity: 0.05; } 50% { stroke-opacity: 0.18; } }
+      @keyframes dotPulse { 0%,100% { fill-opacity: 0.3; r: 2; } 50% { fill-opacity: 1; r: 3.5; } }
+      @keyframes dotPulse2 { 0%,100% { fill-opacity: 0.2; r: 1.5; } 50% { fill-opacity: 0.8; r: 3; } }
+      @keyframes titleGlow { 0%,100% { filter: drop-shadow(0 0 4px rgba(0,255,65,0.3)); } 50% { filter: drop-shadow(0 0 15px rgba(0,255,65,0.7)); } }
+      @keyframes barLoad { 0% { width: 0; } 100% { width: 120px; } }
+      @keyframes fadeLoop { 0%,100% { opacity: 0.15; } 50% { opacity: 0.4; } }
+      @keyframes hexPulse { 0%,100% { stroke-opacity: 0.06; } 50% { stroke-opacity: 0.15; } }
+
+      .cursor { animation: blink 1s step-end infinite; }
+      .rain1 { animation: codeRain1 4s linear infinite; }
+      .rain2 { animation: codeRain2 5.5s linear infinite; }
+      .rain3 { animation: codeRain3 3.5s linear infinite; }
+      .rain4 { animation: codeRain1 6s linear infinite 1s; }
+      .rain5 { animation: codeRain2 4.5s linear infinite 0.5s; }
+      .rain6 { animation: codeRain3 5s linear infinite 2s; }
+      .rain7 { animation: codeRain1 7s linear infinite 1.5s; }
+      .rain8 { animation: codeRain2 3.8s linear infinite 0.8s; }
+      .scanline { animation: scanline 3s linear infinite; }
+      .glitch { animation: glitch1 5s ease-in-out infinite; }
+      .circuit1 { animation: circuitPulse 3s ease-in-out infinite; }
+      .circuit2 { animation: circuitPulse2 4s ease-in-out infinite 1s; }
+      .circuit3 { animation: circuitPulse 3.5s ease-in-out infinite 0.5s; }
+      .dot1 { animation: dotPulse 2s ease-in-out infinite; }
+      .dot2 { animation: dotPulse2 3s ease-in-out infinite 0.5s; }
+      .dot3 { animation: dotPulse 2.5s ease-in-out infinite 1s; }
+      .title-glow { animation: titleGlow 3s ease-in-out infinite; }
+      .bar-anim { animation: barLoad 3s ease-out infinite; }
+      .fade-loop { animation: fadeLoop 4s ease-in-out infinite; }
+      .hex1 { animation: hexPulse 4s ease-in-out infinite; }
+      .hex2 { animation: hexPulse 5s ease-in-out infinite 1.5s; }
+    </style>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.15"/>
+      <stop offset="55%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background - dark terminal -->
+  <rect width="1200" height="220" fill="#0a0a0a" rx="6"/>
+
+  <!-- Terminal window chrome -->
+  <rect x="0" y="0" width="1200" height="28" fill="#1a1a1a" rx="6"/>
+  <rect x="0" y="14" width="1200" height="14" fill="#1a1a1a"/>
+  <circle cx="18" cy="14" r="5.5" fill="#ff5f57"/>
+  <circle cx="38" cy="14" r="5.5" fill="#febc2e"/>
+  <circle cx="58" cy="14" r="5.5" fill="#28c840"/>
+  <text x="600" y="18" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#666666" text-anchor="middle">rodiel@cloud-arch ~ zsh</text>
+
+  <!-- Subtle CRT scanlines -->
+  <g opacity="0.03">
+    <line x1="0" y1="30" x2="1200" y2="30" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="32" x2="1200" y2="32" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="36" x2="1200" y2="36" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="38" x2="1200" y2="38" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="42" x2="1200" y2="42" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="44" x2="1200" y2="44" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="48" x2="1200" y2="48" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="54" x2="1200" y2="54" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="62" x2="1200" y2="62" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="66" x2="1200" y2="66" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="68" x2="1200" y2="68" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="72" x2="1200" y2="72" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="74" x2="1200" y2="74" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="78" x2="1200" y2="78" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="84" x2="1200" y2="84" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="86" x2="1200" y2="86" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="90" x2="1200" y2="90" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="92" x2="1200" y2="92" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="96" x2="1200" y2="96" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="98" x2="1200" y2="98" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="102" x2="1200" y2="102" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="104" x2="1200" y2="104" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="108" x2="1200" y2="108" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="110" x2="1200" y2="110" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="114" x2="1200" y2="114" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="116" x2="1200" y2="116" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="122" x2="1200" y2="122" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="126" x2="1200" y2="126" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="128" x2="1200" y2="128" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="132" x2="1200" y2="132" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="134" x2="1200" y2="134" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="138" x2="1200" y2="138" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="140" x2="1200" y2="140" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="144" x2="1200" y2="144" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="148" x2="1200" y2="148" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="152" x2="1200" y2="152" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="156" x2="1200" y2="156" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="164" x2="1200" y2="164" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="168" x2="1200" y2="168" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="172" x2="1200" y2="172" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="176" x2="1200" y2="176" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="184" x2="1200" y2="184" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="188" x2="1200" y2="188" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="192" x2="1200" y2="192" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="196" x2="1200" y2="196" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="204" x2="1200" y2="204" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="208" x2="1200" y2="208" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="212" x2="1200" y2="212" stroke="#00ff41" stroke-width="0.5"/>
+    <line x1="0" y1="216" x2="1200" y2="216" stroke="#00ff41" stroke-width="0.5"/>
+  </g>
+
+  <!-- Animated scan bar -->
+  <rect x="0" y="28" width="1200" height="192" fill="url(#scanGrad)" class="scanline"/>
+
+  <!-- Matrix-style code rain columns -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#00ff41">
+    <!-- Column 1 -->
+    <g class="rain1" opacity="0.15">
+      <text x="45" y="40">k</text><text x="45" y="55">8</text><text x="45" y="70">s</text>
+      <text x="45" y="85">.</text><text x="45" y="100">y</text><text x="45" y="115">m</text>
+      <text x="45" y="130">l</text><text x="45" y="145">0</text><text x="45" y="160">x</text>
+    </g>
+    <!-- Column 2 -->
+    <g class="rain2" opacity="0.12">
+      <text x="95" y="50">t</text><text x="95" y="65">f</text><text x="95" y="80">.</text>
+      <text x="95" y="95">h</text><text x="95" y="110">c</text><text x="95" y="125">l</text>
+      <text x="95" y="140">1</text><text x="95" y="155">0</text>
+    </g>
+    <!-- Column 3 -->
+    <g class="rain3" opacity="0.18">
+      <text x="155" y="35">$</text><text x="155" y="50">s</text><text x="155" y="65">s</text>
+      <text x="155" y="80">h</text><text x="155" y="95">/</text><text x="155" y="110">0</text>
+      <text x="155" y="125">p</text><text x="155" y="140">v</text><text x="155" y="155">e</text>
+    </g>
+    <!-- Column 4 -->
+    <g class="rain4" opacity="0.1">
+      <text x="210" y="45">a</text><text x="210" y="60">w</text><text x="210" y="75">s</text>
+      <text x="210" y="90">:</text><text x="210" y="105">:</text><text x="210" y="120">e</text>
+      <text x="210" y="135">k</text><text x="210" y="150">s</text>
+    </g>
+    <!-- Column 5 -->
+    <g class="rain5" opacity="0.14">
+      <text x="270" y="55">g</text><text x="270" y="70">c</text><text x="270" y="85">p</text>
+      <text x="270" y="100">.</text><text x="270" y="115">i</text><text x="270" y="130">o</text>
+      <text x="270" y="145">1</text>
+    </g>
+    <!-- Right side columns -->
+    <g class="rain6" opacity="0.13">
+      <text x="940" y="40">h</text><text x="940" y="55">e</text><text x="940" y="70">l</text>
+      <text x="940" y="85">m</text><text x="940" y="100">.</text><text x="940" y="115">s</text>
+      <text x="940" y="130">h</text><text x="940" y="145">0</text>
+    </g>
+    <g class="rain7" opacity="0.1">
+      <text x="1000" y="50">v</text><text x="1000" y="65">a</text><text x="1000" y="80">u</text>
+      <text x="1000" y="95">l</text><text x="1000" y="110">t</text><text x="1000" y="125">:</text>
+      <text x="1000" y="140">/</text>
+    </g>
+    <g class="rain8" opacity="0.16">
+      <text x="1070" y="35">c</text><text x="1070" y="50">i</text><text x="1070" y="65">l</text>
+      <text x="1070" y="80">i</text><text x="1070" y="95">u</text><text x="1070" y="110">m</text>
+      <text x="1070" y="125">.</text><text x="1070" y="140">1</text><text x="1070" y="155">0</text>
+    </g>
+    <g class="rain3" opacity="0.11">
+      <text x="1140" y="45">A</text><text x="1140" y="60">I</text><text x="1140" y="75">.</text>
+      <text x="1140" y="90">r</text><text x="1140" y="105">u</text><text x="1140" y="120">n</text>
+      <text x="1140" y="135">(</text><text x="1140" y="150">)</text>
+    </g>
+  </g>
+
+  <!-- Circuit board traces (left) -->
+  <g stroke="#00ff41" fill="none" stroke-width="1">
+    <path d="M 30 100 L 30 140 L 60 140 L 60 170" class="circuit1"/>
+    <path d="M 60 170 L 90 170 L 90 190" class="circuit2"/>
+    <path d="M 30 100 L 70 100 L 70 80 L 100 80" class="circuit3"/>
+    <circle cx="30" cy="100" r="2" fill="#00ff41" class="dot1"/>
+    <circle cx="60" cy="170" r="2" fill="#00ff41" class="dot2"/>
+    <circle cx="90" cy="190" r="2" fill="#00ff41" class="dot3"/>
+    <circle cx="100" cy="80" r="2" fill="#00ff41" class="dot1"/>
+  </g>
+
+  <!-- Circuit board traces (right) -->
+  <g stroke="#00ff41" fill="none" stroke-width="1">
+    <path d="M 1170 80 L 1170 110 L 1140 110 L 1140 140" class="circuit2"/>
+    <path d="M 1140 140 L 1110 140 L 1110 165" class="circuit1"/>
+    <path d="M 1170 80 L 1130 80 L 1130 60 L 1100 60" class="circuit3"/>
+    <circle cx="1170" cy="80" r="2" fill="#00ff41" class="dot2"/>
+    <circle cx="1140" cy="140" r="2" fill="#00ff41" class="dot1"/>
+    <circle cx="1110" cy="165" r="2" fill="#00ff41" class="dot3"/>
+    <circle cx="1100" cy="60" r="2" fill="#00ff41" class="dot2"/>
+  </g>
+
+  <!-- Hex grid pattern (background) -->
+  <g stroke="#00ff41" fill="none" stroke-width="0.5">
+    <polygon points="180,160 195,150 210,160 210,175 195,185 180,175" class="hex1"/>
+    <polygon points="210,160 225,150 240,160 240,175 225,185 210,175" class="hex2"/>
+    <polygon points="195,185 210,175 225,185 225,200 210,210 195,200" class="hex1"/>
+    
+    <polygon points="960,55 975,45 990,55 990,70 975,80 960,70" class="hex2"/>
+    <polygon points="990,55 1005,45 1020,55 1020,70 1005,80 990,70" class="hex1"/>
+    <polygon points="975,80 990,70 1005,80 1005,95 990,105 975,95" class="hex2"/>
+  </g>
+
+  <!-- Terminal prompt line (left) -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" class="fade-loop">
+    <text x="35" y="52" font-size="10" fill="#00ff41" opacity="0.4">$ kubectl get nodes -o wide</text>
+  </g>
+  <g font-family="'SF Mono', 'Fira Code', monospace" class="fade-loop" style="animation-delay: 2s">
+    <text x="35" y="210" font-size="10" fill="#00ff41" opacity="0.3">$ terraform apply -auto-approve</text>
+  </g>
+
+  <!-- Main name - glitch effect -->
+  <g class="glitch title-glow">
+    <text x="600" y="96" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="48" font-weight="700" fill="#00ff41" text-anchor="middle" letter-spacing="4">
+      RODIEL LEZCANO
+    </text>
+  </g>
+  <!-- Glitch shadow layers -->
+  <text x="602" y="94" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="48" font-weight="700" fill="#ff0040" text-anchor="middle" letter-spacing="4" opacity="0.05" class="glitch">
+    RODIEL LEZCANO
+  </text>
+  <text x="598" y="98" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="48" font-weight="700" fill="#00bfff" text-anchor="middle" letter-spacing="4" opacity="0.05" class="glitch">
+    RODIEL LEZCANO
+  </text>
+
+  <!-- Subtitle as terminal output -->
+  <text x="600" y="130" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" fill="#00cc33" text-anchor="middle" letter-spacing="2" opacity="0.8">
+    [SOLUTIONS_ARCHITECT] // CLOUD &amp; AI // IaC_AUTOMATION
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="780" y="119" width="8" height="14" fill="#00ff41" class="cursor"/>
+
+  <!-- Status bar area -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="10">
+    <!-- Status items -->
+    <text x="340" y="162" fill="#00ff41" opacity="0.5">&#x25CF; AWS</text>
+    <text x="400" y="162" fill="#00ff41" opacity="0.5">&#x25CF; AZURE</text>
+    <text x="475" y="162" fill="#00ff41" opacity="0.5">&#x25CF; GCP</text>
+    <text x="535" y="162" fill="#00ff41" opacity="0.5">&#x25CF; K8s</text>
+    <text x="590" y="162" fill="#00ff41" opacity="0.5">&#x25CF; TERRAFORM</text>
+    <text x="700" y="162" fill="#00ff41" opacity="0.5">&#x25CF; AI</text>
+    <text x="745" y="162" fill="#00ff41" opacity="0.5">&#x25CF; SECURITY</text>
+  </g>
+
+  <!-- Loading bars -->
+  <g opacity="0.35">
+    <text x="340" y="180" font-family="'SF Mono', monospace" font-size="9" fill="#005f15">infra</text>
+    <rect x="380" y="173" width="120" height="6" fill="#0a1a0a" rx="2"/>
+    <rect x="380" y="173" height="6" fill="#00ff41" rx="2" class="bar-anim" style="animation-delay: 0s"><animate attributeName="width" values="0;120" dur="3s" repeatCount="indefinite"/></rect>
+    
+    <text x="530" y="180" font-family="'SF Mono', monospace" font-size="9" fill="#005f15">deploy</text>
+    <rect x="580" y="173" width="120" height="6" fill="#0a1a0a" rx="2"/>
+    <rect x="580" y="173" height="6" fill="#00cc33" rx="2"><animate attributeName="width" values="0;120" dur="4s" repeatCount="indefinite"/></rect>
+    
+    <text x="730" y="180" font-family="'SF Mono', monospace" font-size="9" fill="#005f15">secure</text>
+    <rect x="780" y="173" width="120" height="6" fill="#0a1a0a" rx="2"/>
+    <rect x="780" y="173" height="6" fill="#009926" rx="2"><animate attributeName="width" values="0;120" dur="5s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- Bottom prompt -->
+  <text x="340" y="205" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" fill="#00ff41" opacity="0.3">
+    rodiel@gta:~$ echo "Everything is code, nothing is manual."
+  </text>
+
+  <!-- Terminal border glow -->
+  <rect x="1" y="1" width="1198" height="218" fill="none" stroke="#00ff41" stroke-width="1" rx="6" opacity="0.15" class="circuit1"/>
+</svg>

@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <radialGradient id="nebula1" cx="30%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#1e1b4b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="70%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#0e7490" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#164e63" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula3" cx="85%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#9f1239" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#4c0519" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#7c3aed" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      @keyframes twinkle1 { 0%,100% { opacity: 0.2; } 50% { opacity: 1; } }
+      @keyframes twinkle2 { 0%,100% { opacity: 0.8; } 50% { opacity: 0.1; } }
+      @keyframes twinkle3 { 0%,100% { opacity: 0.5; } 30% { opacity: 1; } 70% { opacity: 0.1; } }
+      @keyframes orbit1 { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes orbit2 { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
+      @keyframes orbit3 { 0% { transform: rotate(120deg); } 100% { transform: rotate(480deg); } }
+      @keyframes nebulaPulse { 0%,100% { opacity: 0.4; } 50% { opacity: 0.7; } }
+      @keyframes nebulaPulse2 { 0%,100% { opacity: 0.3; } 50% { opacity: 0.55; } }
+      @keyframes corePulse { 0%,100% { opacity: 0.6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.15); } }
+      @keyframes ringPulse { 0%,100% { stroke-opacity: 0.15; } 50% { stroke-opacity: 0.4; } }
+      @keyframes ringPulse2 { 0%,100% { stroke-opacity: 0.08; } 50% { stroke-opacity: 0.25; } }
+      @keyframes shooting { 0% { transform: translate(0,0); opacity: 1; } 100% { transform: translate(150px, 60px); opacity: 0; } }
+      @keyframes shooting2 { 0% { transform: translate(0,0); opacity: 1; } 100% { transform: translate(-120px, 50px); opacity: 0; } }
+      @keyframes titleShimmer { 
+        0%,100% { fill: #e0f2fe; filter: drop-shadow(0 0 8px rgba(56,189,248,0.4)); } 
+        33% { fill: #f0abfc; filter: drop-shadow(0 0 12px rgba(192,132,252,0.5)); }
+        66% { fill: #e0f2fe; filter: drop-shadow(0 0 10px rgba(96,165,250,0.4)); }
+      }
+      @keyframes subtitleColor {
+        0%,100% { fill: #7dd3fc; } 
+        25% { fill: #c4b5fd; }
+        50% { fill: #fda4af; }
+        75% { fill: #6ee7b7; }
+      }
+      @keyframes constellationPulse { 0%,100% { stroke-opacity: 0.1; } 50% { stroke-opacity: 0.3; } }
+      @keyframes constellationPulse2 { 0%,100% { stroke-opacity: 0.08; } 50% { stroke-opacity: 0.2; } }
+      @keyframes driftRight { 0% { transform: translateX(0); } 100% { transform: translateX(10px); } }
+      @keyframes driftLeft { 0% { transform: translateX(0); } 100% { transform: translateX(-8px); } }
+      @keyframes planetGlow { 0%,100% { filter: drop-shadow(0 0 3px rgba(251,146,60,0.5)); } 50% { filter: drop-shadow(0 0 8px rgba(251,146,60,0.8)); } }
+      @keyframes dustFloat { 0%,100% { transform: translateY(0) translateX(0); opacity: 0.3; } 50% { transform: translateY(-15px) translateX(8px); opacity: 0.6; } }
+      @keyframes dustFloat2 { 0%,100% { transform: translateY(0) translateX(0); opacity: 0.2; } 50% { transform: translateY(10px) translateX(-5px); opacity: 0.5; } }
+      @keyframes auroraWave { 0%,100% { d: path("M 0 200 Q 200 180 400 195 Q 600 210 800 190 Q 1000 170 1200 195"); opacity: 0.08; } 50% { d: path("M 0 195 Q 200 210 400 185 Q 600 170 800 200 Q 1000 210 1200 185"); opacity: 0.15; } }
+
+      .t1 { animation: twinkle1 3s ease-in-out infinite; }
+      .t2 { animation: twinkle2 4s ease-in-out infinite; }
+      .t3 { animation: twinkle3 2.5s ease-in-out infinite; }
+      .t4 { animation: twinkle1 5s ease-in-out infinite 1s; }
+      .t5 { animation: twinkle2 3.5s ease-in-out infinite 0.5s; }
+      .t6 { animation: twinkle3 4.5s ease-in-out infinite 1.5s; }
+      .t7 { animation: twinkle1 2s ease-in-out infinite 0.8s; }
+
+      .orb1 { transform-origin: 600px 110px; animation: orbit1 20s linear infinite; }
+      .orb2 { transform-origin: 600px 110px; animation: orbit2 30s linear infinite; }
+      .orb3 { transform-origin: 600px 110px; animation: orbit3 25s linear infinite; }
+
+      .neb1 { animation: nebulaPulse 8s ease-in-out infinite; }
+      .neb2 { animation: nebulaPulse2 10s ease-in-out infinite 2s; }
+      .neb3 { animation: nebulaPulse 12s ease-in-out infinite 4s; }
+
+      .core { animation: corePulse 4s ease-in-out infinite; }
+      .ring1 { animation: ringPulse 3s ease-in-out infinite; }
+      .ring2 { animation: ringPulse2 4s ease-in-out infinite 0.5s; }
+      .ring3 { animation: ringPulse 5s ease-in-out infinite 1s; }
+
+      .shoot1 { animation: shooting 2s linear infinite 3s; }
+      .shoot2 { animation: shooting2 2.5s linear infinite 7s; }
+
+      .title { animation: titleShimmer 6s ease-in-out infinite; }
+      .sub { animation: subtitleColor 12s ease-in-out infinite; }
+
+      .const1 { animation: constellationPulse 4s ease-in-out infinite; }
+      .const2 { animation: constellationPulse2 5s ease-in-out infinite 1s; }
+
+      .planet { animation: planetGlow 3s ease-in-out infinite; }
+
+      .dust1 { animation: dustFloat 7s ease-in-out infinite; }
+      .dust2 { animation: dustFloat2 9s ease-in-out infinite 2s; }
+      .dust3 { animation: dustFloat 6s ease-in-out infinite 1s; }
+      .dust4 { animation: dustFloat2 8s ease-in-out infinite 3s; }
+    </style>
+  </defs>
+
+  <!-- Deep space background -->
+  <rect width="1200" height="220" fill="#030014" rx="8"/>
+
+  <!-- Nebula clouds -->
+  <rect width="1200" height="220" fill="url(#nebula1)" class="neb1" rx="8"/>
+  <rect width="1200" height="220" fill="url(#nebula2)" class="neb2" rx="8"/>
+  <rect width="1200" height="220" fill="url(#nebula3)" class="neb3" rx="8"/>
+
+  <!-- Aurora at bottom -->
+  <path d="M 0 200 Q 200 180 400 195 Q 600 210 800 190 Q 1000 170 1200 195 L 1200 220 L 0 220 Z" fill="#06b6d4" opacity="0.06" class="neb1"/>
+  <path d="M 0 205 Q 300 185 500 200 Q 700 215 900 195 Q 1100 180 1200 200 L 1200 220 L 0 220 Z" fill="#a855f7" opacity="0.04" class="neb2"/>
+
+  <!-- Star field - many twinkling stars -->
+  <circle cx="50" cy="30" r="1" fill="white" class="t1"/>
+  <circle cx="120" cy="80" r="0.8" fill="white" class="t2"/>
+  <circle cx="180" cy="15" r="1.2" fill="white" class="t3"/>
+  <circle cx="250" cy="55" r="0.6" fill="white" class="t4"/>
+  <circle cx="300" cy="120" r="1" fill="white" class="t5"/>
+  <circle cx="340" cy="35" r="0.7" fill="white" class="t6"/>
+  <circle cx="420" cy="180" r="0.9" fill="white" class="t1"/>
+  <circle cx="450" cy="45" r="0.5" fill="white" class="t7"/>
+  <circle cx="520" cy="195" r="1.1" fill="white" class="t2"/>
+  <circle cx="555" cy="25" r="0.8" fill="white" class="t3"/>
+  <circle cx="620" cy="200" r="0.6" fill="white" class="t4"/>
+  <circle cx="680" cy="15" r="1" fill="white" class="t5"/>
+  <circle cx="720" cy="195" r="0.7" fill="white" class="t6"/>
+  <circle cx="780" cy="40" r="1.2" fill="white" class="t7"/>
+  <circle cx="830" cy="170" r="0.5" fill="white" class="t1"/>
+  <circle cx="870" cy="25" r="0.9" fill="white" class="t2"/>
+  <circle cx="920" cy="200" r="0.8" fill="white" class="t3"/>
+  <circle cx="970" cy="60" r="1" fill="white" class="t4"/>
+  <circle cx="1020" cy="185" r="0.6" fill="white" class="t5"/>
+  <circle cx="1060" cy="30" r="1.1" fill="white" class="t6"/>
+  <circle cx="1100" cy="150" r="0.7" fill="white" class="t7"/>
+  <circle cx="1140" cy="45" r="0.9" fill="white" class="t1"/>
+  <circle cx="1170" cy="190" r="0.5" fill="white" class="t2"/>
+  <circle cx="85" cy="160" r="0.8" fill="white" class="t3"/>
+  <circle cx="150" cy="190" r="1" fill="white" class="t4"/>
+  <circle cx="380" cy="90" r="0.6" fill="white" class="t5"/>
+  <circle cx="490" cy="140" r="0.7" fill="white" class="t6"/>
+  <circle cx="660" cy="160" r="0.9" fill="white" class="t7"/>
+  <circle cx="750" cy="130" r="0.5" fill="white" class="t1"/>
+  <circle cx="1000" cy="110" r="0.8" fill="white" class="t2"/>
+  <circle cx="1080" cy="90" r="0.6" fill="white" class="t3"/>
+  <!-- Brighter feature stars -->
+  <circle cx="200" cy="45" r="1.8" fill="url(#star)" class="t5"/>
+  <circle cx="950" cy="35" r="2" fill="url(#star)" class="t7"/>
+  <circle cx="100" cy="130" r="1.5" fill="url(#star)" class="t2"/>
+  <circle cx="1120" cy="120" r="1.7" fill="url(#star)" class="t4"/>
+
+  <!-- Cosmic dust clouds -->
+  <g class="dust1">
+    <ellipse cx="150" cy="70" rx="40" ry="8" fill="#c4b5fd" opacity="0.04"/>
+  </g>
+  <g class="dust2">
+    <ellipse cx="1050" cy="150" rx="50" ry="6" fill="#7dd3fc" opacity="0.04"/>
+  </g>
+  <g class="dust3">
+    <ellipse cx="350" cy="170" rx="35" ry="7" fill="#fda4af" opacity="0.03"/>
+  </g>
+  <g class="dust4">
+    <ellipse cx="850" cy="50" rx="45" ry="5" fill="#6ee7b7" opacity="0.03"/>
+  </g>
+
+  <!-- Constellation: Cloud shape (left) -->
+  <g>
+    <line x1="70" y1="70" x2="110" y2="50" stroke="#7dd3fc" stroke-width="0.5" class="const1"/>
+    <line x1="110" y1="50" x2="155" y2="55" stroke="#7dd3fc" stroke-width="0.5" class="const1"/>
+    <line x1="155" y1="55" x2="170" y2="80" stroke="#7dd3fc" stroke-width="0.5" class="const2"/>
+    <line x1="170" y1="80" x2="130" y2="90" stroke="#7dd3fc" stroke-width="0.5" class="const1"/>
+    <line x1="130" y1="90" x2="80" y2="85" stroke="#7dd3fc" stroke-width="0.5" class="const2"/>
+    <line x1="80" y1="85" x2="70" y2="70" stroke="#7dd3fc" stroke-width="0.5" class="const1"/>
+    <circle cx="70" cy="70" r="2" fill="#7dd3fc" class="t3"/>
+    <circle cx="110" cy="50" r="2.5" fill="#7dd3fc" class="t5"/>
+    <circle cx="155" cy="55" r="2" fill="#7dd3fc" class="t1"/>
+    <circle cx="170" cy="80" r="1.8" fill="#7dd3fc" class="t7"/>
+    <circle cx="130" cy="90" r="2.2" fill="#7dd3fc" class="t2"/>
+    <circle cx="80" cy="85" r="1.5" fill="#7dd3fc" class="t4"/>
+  </g>
+
+  <!-- Constellation: Shield (right) -->
+  <g>
+    <line x1="1040" y1="60" x2="1080" y2="45" stroke="#c4b5fd" stroke-width="0.5" class="const2"/>
+    <line x1="1080" y1="45" x2="1120" y2="60" stroke="#c4b5fd" stroke-width="0.5" class="const1"/>
+    <line x1="1120" y1="60" x2="1120" y2="95" stroke="#c4b5fd" stroke-width="0.5" class="const2"/>
+    <line x1="1120" y1="95" x2="1080" y2="115" stroke="#c4b5fd" stroke-width="0.5" class="const1"/>
+    <line x1="1080" y1="115" x2="1040" y2="95" stroke="#c4b5fd" stroke-width="0.5" class="const2"/>
+    <line x1="1040" y1="95" x2="1040" y2="60" stroke="#c4b5fd" stroke-width="0.5" class="const1"/>
+    <circle cx="1040" cy="60" r="2" fill="#c4b5fd" class="t6"/>
+    <circle cx="1080" cy="45" r="2.5" fill="#c4b5fd" class="t2"/>
+    <circle cx="1120" cy="60" r="2" fill="#c4b5fd" class="t4"/>
+    <circle cx="1120" cy="95" r="1.8" fill="#c4b5fd" class="t7"/>
+    <circle cx="1080" cy="115" r="2.2" fill="#c4b5fd" class="t1"/>
+    <circle cx="1040" cy="95" r="1.5" fill="#c4b5fd" class="t5"/>
+  </g>
+
+  <!-- Constellation: K8s wheel (bottom left) -->
+  <g>
+    <line x1="200" y1="150" x2="230" y2="140" stroke="#6ee7b7" stroke-width="0.5" class="const1"/>
+    <line x1="230" y1="140" x2="250" y2="165" stroke="#6ee7b7" stroke-width="0.5" class="const2"/>
+    <line x1="250" y1="165" x2="230" y2="190" stroke="#6ee7b7" stroke-width="0.5" class="const1"/>
+    <line x1="230" y1="190" x2="200" y2="180" stroke="#6ee7b7" stroke-width="0.5" class="const2"/>
+    <line x1="200" y1="180" x2="200" y2="150" stroke="#6ee7b7" stroke-width="0.5" class="const1"/>
+    <line x1="225" y1="165" x2="200" y2="150" stroke="#6ee7b7" stroke-width="0.4" class="const2"/>
+    <line x1="225" y1="165" x2="250" y2="165" stroke="#6ee7b7" stroke-width="0.4" class="const1"/>
+    <line x1="225" y1="165" x2="230" y2="190" stroke="#6ee7b7" stroke-width="0.4" class="const2"/>
+    <circle cx="200" cy="150" r="2" fill="#6ee7b7" class="t7"/>
+    <circle cx="230" cy="140" r="1.8" fill="#6ee7b7" class="t3"/>
+    <circle cx="250" cy="165" r="2" fill="#6ee7b7" class="t5"/>
+    <circle cx="230" cy="190" r="1.5" fill="#6ee7b7" class="t1"/>
+    <circle cx="200" cy="180" r="2.2" fill="#6ee7b7" class="t6"/>
+    <circle cx="225" cy="165" r="2.5" fill="#6ee7b7" class="t2"/>
+  </g>
+
+  <!-- Shooting stars -->
+  <g class="shoot1" opacity="0.7">
+    <line x1="280" y1="20" x2="260" y2="12" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="280" y1="20" x2="240" y2="8" stroke="white" stroke-width="0.5" stroke-linecap="round" opacity="0.4"/>
+  </g>
+  <g class="shoot2" opacity="0.6">
+    <line x1="900" y1="30" x2="920" y2="22" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="900" y1="30" x2="940" y2="18" stroke="white" stroke-width="0.5" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Central core glow (behind text) -->
+  <circle cx="600" cy="90" r="120" fill="url(#coreGlow)" class="core"/>
+
+  <!-- Orbital rings -->
+  <g fill="none" stroke-width="0.8" class="orb1">
+    <ellipse cx="600" cy="110" rx="260" ry="30" stroke="#38bdf8" class="ring1"/>
+  </g>
+  <g fill="none" stroke-width="0.6" class="orb2">
+    <ellipse cx="600" cy="110" rx="300" ry="45" stroke="#a855f7" class="ring2" transform="rotate(-8 600 110)"/>
+  </g>
+  <g fill="none" stroke-width="0.5" class="orb3">
+    <ellipse cx="600" cy="110" rx="340" ry="20" stroke="#fb923c" class="ring3" transform="rotate(5 600 110)"/>
+  </g>
+
+  <!-- Orbiting planets -->
+  <g class="orb1">
+    <circle cx="860" cy="110" r="4" fill="#38bdf8" class="planet"/>
+    <circle cx="860" cy="110" r="7" fill="#38bdf8" opacity="0.15"/>
+  </g>
+  <g class="orb2">
+    <circle cx="300" cy="110" r="3.5" fill="#a855f7"/>
+    <circle cx="300" cy="110" r="6" fill="#a855f7" opacity="0.12"/>
+  </g>
+  <g class="orb3">
+    <circle cx="940" cy="110" r="3" fill="#fb923c"/>
+    <circle cx="940" cy="110" r="5.5" fill="#fb923c" opacity="0.1"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="600" y="88" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" text-anchor="middle" letter-spacing="4" class="title">
+    Rodiel Lezcano
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="5" class="sub">
+    SOLUTIONS ARCHITECT  &#xB7;  CLOUD &amp; AI  &#xB7;  IaC AUTOMATION
+  </text>
+
+  <!-- Tech tags as star clusters with labels -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.5" opacity="0.5">
+    <text x="395" y="160" fill="#7dd3fc" text-anchor="middle">AWS</text>
+    <text x="460" y="160" fill="#c4b5fd" text-anchor="middle">AZURE</text>
+    <text x="530" y="160" fill="#6ee7b7" text-anchor="middle">GCP</text>
+    <text x="600" y="160" fill="#7dd3fc" text-anchor="middle">K8s</text>
+    <text x="675" y="160" fill="#fda4af" text-anchor="middle">TERRAFORM</text>
+    <text x="755" y="160" fill="#fcd34d" text-anchor="middle">AI</text>
+    <text x="815" y="160" fill="#c4b5fd" text-anchor="middle">SECURITY</text>
+  </g>
+
+  <!-- Decorative dots between tags -->
+  <circle cx="427" cy="157" r="1" fill="#ffffff" opacity="0.2"/>
+  <circle cx="495" cy="157" r="1" fill="#ffffff" opacity="0.2"/>
+  <circle cx="565" cy="157" r="1" fill="#ffffff" opacity="0.2"/>
+  <circle cx="637" cy="157" r="1" fill="#ffffff" opacity="0.2"/>
+  <circle cx="715" cy="157" r="1" fill="#ffffff" opacity="0.2"/>
+  <circle cx="785" cy="157" r="1" fill="#ffffff" opacity="0.2"/>
+
+  <!-- Location -->
+  <text x="600" y="195" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" letter-spacing="2" opacity="0.25">
+    GREATER TORONTO AREA, CANADA
+  </text>
+
+  <!-- Border - subtle cosmic glow -->
+  <rect x="1" y="1" width="1198" height="218" fill="none" stroke="#a855f7" stroke-width="0.5" rx="8" opacity="0.15" class="ring1"/>
+</svg>
