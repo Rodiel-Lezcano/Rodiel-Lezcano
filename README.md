@@ -203,7 +203,7 @@ Self-hosted AI platform on Fedora CoreOS — local LLM inference with semantic l
 ## 🏆 Certifications
 
 <details>
-<summary><strong>🛠️ DevOps & Platform Engineering</strong></summary>
+<summary><strong>🛠️ DevOps & AI Platform Engineering</strong></summary>
 <br/>
 <div align="center">
   <img src="https://images.credly.com/size/340x340/images/3d924691-436a-4fb6-b19b-1005ccbb6135/blob" alt="NVIDIA-Certified Associate: AI Infrastructure and Operations" width="110" />
@@ -274,7 +274,7 @@ Self-hosted AI platform on Fedora CoreOS — local LLM inference with semantic l
 </details>
 
 <details>
-<summary><strong>📱 Enterprise Mobility Management (6)</strong></summary>
+<summary><strong>📱 Enterprise Mobility Management</strong></summary>
 <br/>
 <div align="center">
   <img src="https://images.credly.com/size/340x340/images/f2834519-1861-4d48-942b-fe2a2f4ffe6d/image.png" alt="Apple Certified IT Professional" width="110" />
