@@ -7,7 +7,7 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/rodiellezcano" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-rodiellezcano-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/rodiel-lezcano" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-rodiel--lezcano-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
 <a href="https://htperformance.ca" target="_blank"><img src="https://img.shields.io/badge/Portfolio-htperformance.ca-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>&nbsp;
 <a href="mailto:rodiel.lezcano@htperformance.ca"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
 <a href="https://www.credly.com/users/rodiel-lezcano" target="_blank"><img src="https://img.shields.io/badge/Credly-Verified_Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly" /></a>
@@ -278,7 +278,7 @@ Four Telegram agents on Fedora CoreOS — local-first LLM inference on a GPU, se
   <a href="https://www.credly.com/badges/640a89c1-0ce8-4339-8a1f-90c204621965/public_url"><img src="badges/jamf-protect-associate.png" alt="Jamf Certified Associate - Jamf Protect" title="Jamf Certified Associate - Jamf Protect" width="110" /></a>
   <img src="badges/android-enterprise-expert.png" alt="Android Enterprise Certified Expert" title="Android Enterprise Certified Expert" width="110" />
   <img src="badges/samsung-knox-associate.png" alt="Samsung Knox Certified Associate" title="Samsung Knox Certified Associate" width="110" />
-  <img src="badges/soti-mobicontrol-solution-expert.png" alt="SOTI MobiControl 2024 Solution Expert" title="SOTI MobiControl 2024 Solution Expert" width="110" />
+  <img src="badges/soti-mobicontrol-solutions-architect.png" alt="SOTI MobiControl Solutions Architect (2024)" title="SOTI MobiControl Solutions Architect (2024)" width="110" />
 </div>
 <br/>
 </details>
@@ -330,5 +330,5 @@ Four Telegram agents on Fedora CoreOS — local-first LLM inference on a GPU, se
 ---
 
 <div align="center">
-  <sub>Built with ☕ and too many VMs — <a href="https://www.linkedin.com/in/rodiellezcano">Let's connect</a></sub>
+  <sub>Built with ☕ and too many VMs — <a href="https://www.linkedin.com/in/rodiel-lezcano">Let's connect</a></sub>
 </div>
